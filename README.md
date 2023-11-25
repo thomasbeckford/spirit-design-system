@@ -1,5 +1,8 @@
 
-![Screenshot 2023-11-25 at 1 15 22 PM](https://github.com/thomasbeckford/spirit-design-system/assets/28713861/37a31968-d9b6-400a-80e6-8a610b90feb3)
+
+
+https://github.com/thomasbeckford/spirit-design-system/assets/28713861/fab8a47e-e841-403d-8993-e292e1ba2cdf
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
