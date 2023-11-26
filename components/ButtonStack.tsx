@@ -3,7 +3,11 @@ import { StarIcon, ArrowForwardIcon } from '@chakra-ui/icons'
 
 export default function ButtonStack() {
   return (
-    <Stack direction="row" spacing={2} align="center">
+    <Stack
+      direction={['column', 'column', 'column', 'row']}
+      spacing={2}
+      align="center"
+    >
       <Stack w="full">
         <Button size="lg" variant="primary">
           Show Portfolio
@@ -21,7 +25,7 @@ export default function ButtonStack() {
           Show Portfolio
         </Button>
       </Stack>
-      <Stack>
+      <Stack w="full">
         <Button leftIcon={<StarIcon />} size="lg" variant="secondary">
           Secondary Big Button
         </Button>
@@ -36,7 +40,7 @@ export default function ButtonStack() {
           Dashboard
         </Button>
       </Stack>
-      <Stack>
+      <Stack w="full">
         <Button leftIcon={<StarIcon />} size="lg" variant="inverted">
           Inverted Big Button
         </Button>
@@ -52,7 +56,7 @@ export default function ButtonStack() {
         </Button>
       </Stack>
 
-      <Stack>
+      <Stack w="full">
         <Button leftIcon={<StarIcon />} size="lg" variant="danger">
           Danger Big Button
         </Button>

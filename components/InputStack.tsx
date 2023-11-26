@@ -22,7 +22,7 @@ export default function InputStack() {
         isDisabled
       />
 
-      <Stack direction="row">
+      <Stack direction={['column', 'column', 'column', 'row']}>
         <Input
           value="Hello"
           readOnly

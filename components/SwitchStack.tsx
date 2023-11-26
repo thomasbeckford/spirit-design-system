@@ -15,8 +15,8 @@ export default function SwitchStack() {
 
   return (
     <Stack direction="row">
-      <FormControl as={SimpleGrid} columns={{ base: 2, lg: 4 }} spacing={2}>
-        <FormLabel htmlFor="labeled-switch" mb="0" w={12}>
+      <FormControl as={SimpleGrid} columns={{ base: 2, lg: 4 }} spacing={1}>
+        <FormLabel htmlFor="labeled-switch">
           {isChecked ? 'Expert' : 'Basic'}
         </FormLabel>
         <Switch
@@ -28,6 +28,12 @@ export default function SwitchStack() {
 
         <FormLabel htmlFor="isDisabled">isDisabled</FormLabel>
         <Switch id="isDisabled" isDisabled defaultChecked size="lg" />
+
+        <FormLabel htmlFor="isReadOnly">isReadOnly:</FormLabel>
+        <Switch id="isReadOnly" isReadOnly size="lg" />
+
+        <FormLabel htmlFor="isRequired">isRequired:</FormLabel>
+        <Switch id="isRequired" isRequired size="lg" />
 
         <FormLabel htmlFor="isReadOnly">isReadOnly:</FormLabel>
         <Switch id="isReadOnly" isReadOnly size="lg" />
