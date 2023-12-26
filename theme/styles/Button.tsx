@@ -9,7 +9,7 @@ const defaultDangerBorder = `1px solid ${colors.red400}`
 const Button = {
   baseStyle: {
     borderRadius: '4px',
-    color: 'white',
+    color: colors.white,
     fontWeight: '400',
     boxShadow: `0px 2px 8px 0px ${colors.gray600}`,
     '&:hover': {
